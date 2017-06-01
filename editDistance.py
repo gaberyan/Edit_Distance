@@ -1,13 +1,6 @@
-#COM 304 - Algorithms
-#HWK 6
 #Gabe Ryan
-#March 30, 2016
 #Edit Distance Algorithm Implementation
 
-
-"""Output always finds the correct edit distance for any input. However, output doesn't
-always look exactly like given output file for a priority of swap over delete over insert.
-When output is added up, though, the correct edit distance is always reached."""
 
 #X - String 1, Y - String 2
 #d - penalty for instert/delete

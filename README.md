@@ -1,2 +1,1 @@
-Implementation of Edit Distance Algorithm
-# editDistance
+Implementation of the edit distance algorithm. 

@@ -1,0 +1,369 @@
+ggggggggg pppppp
+2 3 1
+Start!				ggggggggg
+Delete 'g'.			gggggggg
+Delete 'g'.			ggggggg
+Delete 'g'.			gggggg
+Change 'g' to 'p'.		pggggg
+Change 'g' to 'p'.		ppgggg
+Change 'g' to 'p'.		pppggg
+Change 'g' to 'p'.		ppppgg
+Change 'g' to 'p'.		pppppg
+Change 'g' to 'p'.		pppppp
+
+
+Edit Distance			12
+
+******************* MATRIX ************************
+[18, 17, 16, 15, 14, 13, 12]
+[16, 15, 14, 13, 12, 11, 10]
+[14, 13, 12, 11, 10, 9, 8]
+[12, 11, 10, 9, 8, 7, 6]
+[10, 9, 8, 7, 6, 5, 7]
+[8, 7, 6, 5, 4, 6, 8]
+[6, 5, 4, 3, 5, 7, 9]
+[4, 3, 2, 4, 6, 8, 10]
+[2, 1, 3, 5, 7, 9, 11]
+[0, 2, 4, 6, 8, 10, 12]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ___gggggg
+		String B: ___pppppp
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+julia jpurloifat
+2 3 1
+Start!				julia
+Ignore 'j'.			julia
+Insert 'p'.			jpulia
+Ignore 'u'.			jpulia
+Insert 'r'.			jpurlia
+Ignore 'l'.			jpurlia
+Insert 'o'.			jpurloia
+Ignore 'i'.			jpurloia
+Insert 'f'.			jpurloifa
+Ignore 'a'.			jpurloifa
+Insert 't'.			jpurloifat
+
+
+Edit Distance			10
+
+******************* MATRIX ************************
+[10, 8, 7, 6, 7, 8, 7, 6, 8, 8, 10]
+[8, 6, 5, 4, 5, 6, 5, 6, 8, 10, 12]
+[6, 4, 3, 4, 3, 4, 6, 8, 10, 12, 14]
+[4, 2, 3, 2, 4, 6, 8, 10, 12, 14, 16]
+[2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: j_u_l_i_a_
+		String B: jpurloifat
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+bender maxbendermax
+2 3 1
+Start!				bender
+Insert 'm'.			mbender
+Insert 'a'.			mabender
+Insert 'x'.			maxbender
+Ignore 'b'.			maxbender
+Ignore 'e'.			maxbender
+Ignore 'n'.			maxbender
+Ignore 'd'.			maxbender
+Ignore 'e'.			maxbender
+Ignore 'r'.			maxbender
+Insert 'm'.			maxbenderm
+Insert 'a'.			maxbenderma
+Insert 'x'.			maxbendermax
+
+
+Edit Distance			12
+
+******************* MATRIX ************************
+[12, 11, 10, 9, 8, 6, 5, 7, 8, 6, 8, 10, 12]
+[10, 9, 8, 7, 6, 4, 6, 8, 6, 8, 10, 12, 14]
+[8, 7, 6, 5, 4, 6, 8, 6, 8, 10, 12, 14, 16]
+[6, 5, 4, 3, 5, 7, 6, 8, 10, 12, 14, 16, 18]
+[4, 3, 2, 4, 6, 6, 8, 10, 12, 14, 16, 18, 20]
+[2, 1, 3, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22]
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ___bender___
+		String B: maxbendermax
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+christine chung
+1 3 2
+Start!				christine
+Ignore 'c'.			christine
+Ignore 'h'.			christine
+Delete 'r'.			chistine
+Delete 'i'.			chstine
+Delete 's'.			chtine
+Delete 't'.			chine
+Change 'i' to 'u'.		chune
+Ignore 'n'.			chune
+Insert 'g'.			chunge
+Delete 'e'.			chung
+
+
+Edit Distance			8
+
+******************* MATRIX ************************
+[9, 8, 7, 8, 7, 8]
+[8, 7, 6, 7, 6, 7]
+[7, 6, 5, 6, 7, 8]
+[6, 5, 4, 5, 6, 7]
+[5, 4, 3, 4, 5, 6]
+[4, 3, 2, 3, 4, 5]
+[3, 2, 1, 2, 3, 4]
+[2, 1, 0, 1, 2, 3]
+[1, 0, 1, 2, 3, 4]
+[0, 1, 2, 3, 4, 5]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ch____in__
+		String B: ch____ung_
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+ozgur izmirli
+2 3 1
+Start!				ozgur
+Change 'o' to 'i'.		izgur
+Ignore 'z'.			izgur
+Change 'g' to 'm'.		izmur
+Change 'u' to 'i'.		izmir
+Ignore 'r'.			izmir
+Insert 'l'.			izmirl
+Insert 'i'.			izmirli
+
+
+Edit Distance			7
+
+******************* MATRIX ************************
+[10, 9, 7, 6, 5, 3, 5, 7]
+[8, 7, 5, 4, 3, 5, 7, 9]
+[6, 5, 3, 2, 4, 6, 8, 10]
+[4, 3, 1, 3, 5, 7, 9, 11]
+[2, 1, 3, 5, 7, 9, 11, 13]
+[0, 2, 4, 6, 8, 10, 12, 14]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ozgur__
+		String B: izmirli
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+christine chung
+2 3 1
+Start!				christine
+Ignore 'c'.			christine
+Ignore 'h'.			christine
+Delete 'r'.			chistine
+Change 'i' to 'u'.		chustine
+Delete 's'.			chutine
+Change 't' to 'n'.		chunine
+Delete 'i'.			chunne
+Change 'n' to 'g'.		chunge
+Delete 'e'.			chung
+
+
+Edit Distance			11
+
+******************* MATRIX ************************
+[18, 16, 14, 13, 11, 11]
+[16, 14, 12, 11, 9, 9]
+[14, 12, 10, 9, 8, 7]
+[12, 10, 8, 7, 6, 5]
+[10, 8, 6, 5, 4, 6]
+[8, 6, 4, 3, 5, 6]
+[6, 4, 2, 3, 3, 5]
+[4, 2, 0, 2, 4, 6]
+[2, 0, 2, 4, 6, 8]
+[0, 2, 4, 6, 8, 10]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ch_i_t_n_
+		String B: ch_u_n_g_
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+julia jpurloifat
+4 3 2
+Start!				julia
+Ignore 'j'.			julia
+Insert 'p'.			jpulia
+Ignore 'u'.			jpulia
+Insert 'r'.			jpurlia
+Ignore 'l'.			jpurlia
+Insert 'o'.			jpurloia
+Ignore 'i'.			jpurloia
+Insert 'f'.			jpurloifa
+Ignore 'a'.			jpurloifa
+Insert 't'.			jpurloifat
+
+
+Edit Distance			20
+
+******************* MATRIX ************************
+[20, 16, 14, 12, 11, 12, 11, 12, 15, 16, 20]
+[16, 12, 10, 8, 9, 9, 10, 12, 16, 20, 24]
+[12, 8, 6, 6, 6, 8, 12, 16, 20, 24, 28]
+[8, 4, 3, 4, 8, 12, 16, 20, 24, 28, 32]
+[4, 0, 4, 8, 12, 16, 20, 24, 28, 32, 36]
+[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: j_u_l_i_a_
+		String B: jpurloifat
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+bender maxbendermax
+4 3 2
+Start!				bender
+Insert 'm'.			mbender
+Insert 'a'.			mabender
+Insert 'x'.			maxbender
+Ignore 'b'.			maxbender
+Ignore 'e'.			maxbender
+Ignore 'n'.			maxbender
+Ignore 'd'.			maxbender
+Ignore 'e'.			maxbender
+Ignore 'r'.			maxbender
+Insert 'm'.			maxbenderm
+Insert 'a'.			maxbenderma
+Insert 'x'.			maxbendermax
+
+
+Edit Distance			24
+
+******************* MATRIX ************************
+[24, 22, 20, 18, 16, 12, 10, 14, 16, 12, 16, 20, 24]
+[20, 18, 16, 14, 12, 8, 12, 16, 12, 16, 20, 24, 28]
+[16, 14, 12, 10, 8, 12, 16, 12, 16, 20, 24, 28, 32]
+[12, 10, 8, 6, 10, 14, 12, 16, 20, 24, 28, 32, 36]
+[8, 6, 4, 8, 12, 12, 16, 20, 24, 28, 32, 36, 40]
+[4, 2, 6, 10, 12, 16, 20, 24, 28, 32, 36, 40, 44]
+[0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ___bender___
+		String B: maxbendermax
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+ozgur izmirli
+1 3 2
+Start!				ozgur
+Change 'o' to 'i'.		izgur
+Ignore 'z'.			izgur
+Change 'g' to 'm'.		izmur
+Change 'u' to 'i'.		izmir
+Ignore 'r'.			izmir
+Insert 'l'.			izmirl
+Insert 'i'.			izmirli
+
+
+Edit Distance			8
+
+******************* MATRIX ************************
+[5, 6, 5, 6, 7, 6, 7, 8]
+[4, 5, 4, 5, 6, 7, 8, 9]
+[3, 4, 3, 4, 5, 6, 7, 8]
+[2, 3, 2, 3, 4, 5, 6, 7]
+[1, 2, 3, 4, 5, 6, 7, 8]
+[0, 1, 2, 3, 4, 5, 6, 7]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ozgur__
+		String B: izmirli
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
+james proflee
+1 3 2
+Start!				james
+Insert 'p'.			pjames
+Insert 'r'.			prjames
+Insert 'o'.			projames
+Insert 'f'.			profjames
+Change 'j' to 'l'.		proflames
+Change 'a' to 'e'.		proflemes
+Delete 'm'.			proflees
+Ignore 'e'.			proflees
+Delete 's'.			proflee
+
+
+Edit Distance			10
+
+******************* MATRIX ************************
+[5, 6, 7, 8, 9, 10, 9, 10]
+[4, 5, 6, 7, 8, 9, 8, 9]
+[3, 4, 5, 6, 7, 8, 9, 10]
+[2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3, 4, 5, 6, 7, 8]
+[0, 1, 2, 3, 4, 5, 6, 7]
+****************** END MATRIX *********************
+
+****************** ALIGNMENT **********************
+
+		String A: ____ja_e_
+		String B: profle_e_
+
+***************** END ALIGNMENT *******************
+
+
+-----------------------------------------------------------
+
